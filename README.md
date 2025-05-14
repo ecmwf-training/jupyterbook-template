@@ -10,13 +10,21 @@ The repository includes github-actions which will automatically build a develop 
 
 ### Create a repository from this template
 
-A new repository can be created from this by simply selecting the green `Use this template` icon on the top right. 
+A new repository can be created from this by simply selecting the green `Use this template` icon on the top right. The repository should be public to enable all the features required to build the JupyterBook.
 
 ### Update the _config.yml
 
 Update the `repository: -> url:` field in the _config.yml to point to the repository that you have just created. This is used as the link to the source in the rendered JupyterBook.
 
-### Enable 
+### Enable github pages
+
+Go to the "Settings" tab, then navigate to "Pages" on the left-hand menu pane. In the "Build and deployment" section set the source to "GitHub Actions" from the dropdown menu.
+
+Now go to the "Actions" tab. You will see that the "Initial commit" action failed, this was because the pages were not enabled. You can then click the "Re-run all jobs" buttons in the top right to re-run the actions. This time it should succeed and provide a link to your github pages in the flow diagram.
+
+<div class="alert alert-block alert-info">
+<b>Public repository required for github pages.</b> If you did not select "public" when creating the repository .
+</div>
 
 
 ## Notebook development instructions
