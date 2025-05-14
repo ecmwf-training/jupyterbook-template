@@ -91,7 +91,7 @@ The dependancies of your notebooks should be stored in the `environment.yml` fil
 
 ## Troubleshooting notes
 
-1. Multiple Level 1 Headers (#) in a notebook seems to break the _toc definition of title. It is also bad practice so discourage.
+1. Multiple Level 1 Headers (#) in a notebook will break various aspects of the JupyterBook build.
 2. JupyterBooks do not have a running python kernel, threrefore they are not compatible with interactive widgets which require a running kernel, e.g. a number of ipywidgets, as documented here: https://jupyterbook.org/en/stable/interactive/interactive.html?highlight=widgets#ipywidgets
 3. Any additional images included in the notebook should be added using markdown hyperlink syntax, html syntax does not work with our jupyter-books. e.g.: `![](.images.png)`
 4. Please avoid using placeholder hyperlinks using (the HTML <a> tag without a href provided) and within notebook cross-references (links between sections of the notebook). Due to platform differences they are not rendered correctly on JupyterBook pages and causes many compilation warnings and errors. This means it is much harder for us to identify real issues in the notebook, slowing down the integration process.
