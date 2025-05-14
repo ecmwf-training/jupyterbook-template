@@ -20,14 +20,14 @@ Update the `repository: -> url:` field in the _config.yml to point to the reposi
 
 Go to the "Settings" tab, then navigate to "Pages" on the left-hand menu pane. In the "Build and deployment" section set the source to "GitHub Actions" from the dropdown menu.
 
-[!WARNING]
-<b>Public repository required for github pages</b> If you did not select "public" when creating the repository you will not be able to enable github pages (unless you are using github enterprise). To make the repository public go to "Settings" -> "General" -> "Danger Zone" -> "Change repository visibility"
+> [!WARNING]
+> <b>Public repository required for github pages</b> If you did not select "public" when creating the repository you will not be able to enable github pages (unless you are using github enterprise). To make the repository public go to "Settings" -> "General" -> "Danger Zone" -> "Change repository visibility"
 
 
 Now go to the "Actions" tab. You will see that the "Initial commit" action failed, this was because the pages were not enabled. You can then click the "Re-run all jobs" buttons in the top right to re-run the actions. This time it should succeed and provide a link to your github pages in the flow diagram.
 
-[!TIP]
-<b>Optional</b> You can make this link easier to locate in the future by adding it to the "About" section in the right hand panel of the "Code" tab. Click on the settings cog next to about and check the "Use your GitHub Pages website" checkbox.
+> [!TIP]
+> <b>Optional</b> You can make this link easier to locate in the future by adding it to the "About" section in the right hand panel of the "Code" tab. Click on the settings cog next to about and check the "Use your GitHub Pages website" checkbox.
 
 ## Notebook development instructions
 
