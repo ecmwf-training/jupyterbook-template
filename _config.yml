@@ -29,7 +29,10 @@ html:
   
 launch_buttons:
   binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
-  jupyterhub_url: "https://jupyterhub.ecmwf.int"
+  colab_url: "https://colab.research.google.com"  # The URL for Google Colab (e.g., https://colab.research.google.com)
+  kaggle_url: "https://www.kaggle.com/kernels/new"  # The URL for Kaggle (e.g., https://www.kaggle.com/kernels/new)
+
+  # jupyterhub_url: "https://jupyterhub.ecmwf.int"
 
 exclude_patterns:
   - developer/*

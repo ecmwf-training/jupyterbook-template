@@ -1,6 +1,6 @@
 # ECMWF Jupyterbook learning resource template
 
-This repository is a github template to facilitate development and maintenance of ECMWF Jupyterbooks used for learning.
+This repository is a github template to facilitate development and maintenance of ECMWF Jupyterbooks used for learning. Create a repository from this template for Jupyterbooks you plan to develop for training purposes at ECMWF.
 
 The default branch for this repository is **develop**, and this branch is used to deploy the review/development version of the JupyterBook. The **main** branch is reserved for published content and will be maintained by ECMWF.
 
@@ -10,16 +10,14 @@ The repository includes github-actions which will automatically build a develop 
 
 ### Create a repository from this template
 
-A new repository can be created from this by simply selecting the green `Use this template` icon on the top right. Create a repository from this template for Jupyterbooks you plan to develop for training purposes at ECMWF.
+A new repository can be created from this by simply selecting the green `Use this template` icon on the top right. 
 
 ### Update the _config.yml
 
 Update the `repository: -> url:` field in the _config.yml to point to the repository that you have just created. This is used as the link to the source in the rendered JupyterBook.
 
-If you plan on using any additional JupyterBook plugins they should be listed here.
+### Enable 
 
-
-After creating your git-repository from this template, there are several steps 
 
 ## Notebook development instructions
 
