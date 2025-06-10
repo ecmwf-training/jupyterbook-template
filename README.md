@@ -31,15 +31,19 @@ Now go to the "Actions" tab. You will see that the "Initial commit" action faile
 
 ## Notebook development instructions
 
-## Choose an appropriate template
+### Choose an appropriate template
 
 When developing a notebook please follow the templating guide found in the notebooks provided in this template repository.
 Please select a template that is appropriate to the project that you are working on.
 
-## Dependancies
+### Dependancies
 
 The dependancies for the notebooks in this repository should be listed in the `environment.yml` file.
 (Please note that the dependancies listed in `ci/requirements.txt` are for the github actions, you should not need to modify these dependancies)
+
+### Update `_toc.yml`
+
+The `_toc.yml` (Table of Contents) file is used to describe the structure of the JupyterBook. It
 
 ### Best practices for Jupyter notebooks
 

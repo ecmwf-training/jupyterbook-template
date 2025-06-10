@@ -33,7 +33,7 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"  # The URL for Google Colab (e.g., https://colab.research.google.com)
   # kaggle_url: "https://www.kaggle.com/kernels/new"  # The URL for Kaggle (e.g., https://www.kaggle.com/kernels/new)
   deepnote_url: "https://deepnote.com"  # The URL for Deepnote (e.g., https://deepnote.com)
-  # jupyterhub_url: "https://jupyterhub.ecmwf.int"
+  jupyterhub_url: "https://jupyterhub.ecmwf.int"
 
 exclude_patterns:
   - developer/*
