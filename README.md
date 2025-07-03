@@ -45,7 +45,7 @@ All training material destined for CDS/ADS/CADS portals must satisfy the SWUMP c
 * **S**elf-explanatory: Steps are clearly, correctly and succinctly explained.
 * **W**ell structured: Logical flow and aesthetically pleasing layout with a balanced mix of Markdown and code.
 * **U**sable: Notebook runs to completion **without errors** and uses only outputs/widgets compatible with JupyterBook.
-* **M**eaningful: Provides an authentic, value-adding use-case for CDS/ADS/CADS data.                     
+* **M**eaningful: Provides an authentic, value-adding use-case for CDS/ADS/CADS data.
 * **P**roficient: Passes the code-standards tests (see below).
 
 **Code standards tests**
@@ -86,7 +86,7 @@ Focus on one topic / visualisation / processing routine. Consider separate noteb
 
 #### Use MyST markdown
 
-Use coloured cells, icons, etc. where needed.
+For enhanced markdown features (e.g. colored cells, icons), use [MyST markdown](https://mystmd.org/),which is compatible with our JupyterBook setup.
 
 #### Images
 - Store notebook-specific images in `./img/.`
