@@ -86,7 +86,7 @@ Focus on one topic / visualisation / processing routine. Consider separate noteb
 
 #### Use MyST markdown
 
-For enhanced markdown features (e.g. colored cells, icons), use [MyST markdown](https://mystmd.org/),which is compatible with our JupyterBook setup.
+For enhanced markdown features (e.g. colored cells, icons), use [MyST markdown](https://mystmd.org/), which is compatible with our JupyterBook setup.
 
 #### Images
 - Store notebook-specific images in `./img/.`
