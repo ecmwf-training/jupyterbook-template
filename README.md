@@ -31,7 +31,7 @@ Go to the "Settings" tab, then navigate to "Pages" on the left-hand menu pane. I
 > <b>Public repository required for github pages</b> If you did not select "public" when creating the repository you will not be able to enable github pages (unless you are using github enterprise). To make the repository public go to "Settings" -> "General" -> "Danger Zone" -> "Change repository visibility"
 
 
-Now go to the "Actions" tab. You will see that the "Initial commit" action failed, this was because the pages were not enabled. You can then click the "Re-run all jobs" buttons in the top right to re-run the actions. This time it should succeed and provide a link to your github pages in the flow diagram.
+To get the link to the rendered Jupyter Book (github pages), go to the "Actions" tab. You will see that the "Initial commit" action failed, this was because the pages were not enabled. You can then click the "Re-run all jobs" buttons in the top right to re-run the actions. This time it should succeed and provide a link to your github pages in the flow diagram. Alternatively, you can find the link in the "Summary" section shown on the same page.
 
 > [!TIP]
 > <b>Optional</b> You can make this link easier to locate in the future by adding it to the "About" section in the right hand panel of the "Code" tab. Click on the settings cog next to about and check the "Use your GitHub Pages website" checkbox.
