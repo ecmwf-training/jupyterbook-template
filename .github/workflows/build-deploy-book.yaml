@@ -75,15 +75,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Add deployment URL to Job Summary
-        if: steps.deployment.outputs.page_url != ''
-        run: |
-          {
-            echo "## GitHub Pages Deployment";
-            echo "";
-            echo "Branch: \`${{ github.ref_name }}\`";
-            echo "Commit: \`${{ github.sha }}\`";
-            echo "";
-            echo "Jupyter Book deployed at: ${{ steps.deployment.outputs.page_url }}";
-          } >> "$GITHUB_STEP_SUMMARY"
