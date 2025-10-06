@@ -6,7 +6,7 @@ This template has been designed to be used as a sub-module for a parent reposito
 
 The repository includes github-actions which will automatically build a develop version of the Jupyter Book that can be used for review purposes.
 
-## 1. Initial setup
+## 1 Initial setup
 
 ### 1.1 Create your repository
 
@@ -36,7 +36,7 @@ To get the link to the rendered Jupyter Book (github pages), go to the "Actions"
 > [!TIP]
 > <b>Optional</b> You can make this link easier to locate in the future by adding it to the "About" section in the right hand panel of the "Code" tab. Click on the settings cog next to about and check the "Use your GitHub Pages website" checkbox.
 
-## 2. Notebook development
+## 2 Notebook development
 
 ### 2.1 Notebook contents & standards (SWUMP)
 
@@ -64,16 +64,31 @@ A review checklist is provided [here](https://confluence.ecmwf.int/pages/viewpag
 When developing a notebook please follow the templating guide found in the notebooks provided in this template repository.
 Please select a template that is appropriate to the project that you are working on.
 
-### 2.3. Dependancies
+### 2.3 Titles and Filenames
+
+When selecting titles and filenames, consider the needs of a broad and diverse audience.  
+
+Training notebooks serve as entry points to the subject matter and should therefore be titled in a way that is clear, accurate, and accessible. Titles must be:  
+- **Concise** – brief and easy to read.  
+- **Accurate** – clearly reflect the notebook’s content and purpose.  
+- **Accessible** – avoid acronyms, abbreviations, or technical jargon that may not be widely understood.  
+
+Filenames should use human-readable *slugs* that capture the notebook’s key themes, particularly those that distinguish it from other notebooks in the repository.  
+
+- **Do not** include contract numbers or version identifiers in filenames.  
+- Contract numbers, where required, may be referenced in the Pull Request that introduces or modifies the notebook.  
+- File versioning is managed automatically through GitHub and should not be duplicated in filenames.
+
+### 2.4 Dependancies
 
 The dependancies for the notebooks in this repository should be listed in the `environment.yml` file.
 (Please note that the dependancies listed in `ci/requirements.txt` are for the github actions, you should not need to modify these dependancies)
 
-### 2.4. Table of contents
+### 2.5 Table of contents
 
 Edit `_toc.yml` to reflect the notebook structure of your JupyterBook.
 
-### 2.5. Best practices
+### 2.6 Best practices
 
 #### Keep notebooks short
 
@@ -112,7 +127,7 @@ Avoid HTML `<a>` tags without `href` and notebook cross-references built with pl
 Refrain from using raw HTML—JupyterBook’s config may override or mis-render it. Markdown covers all required formatting.
 
 
-## 3. Building the JupyterBook
+## 3 Building the JupyterBook
 
 Notebook providers are responsible for ensuring that the GitHub Actions succesfully build and deploy the JupyterBook. It is advisable to test run the build commands and inspect the output locally before pushing to the repository as this will save you time and effort.
 
