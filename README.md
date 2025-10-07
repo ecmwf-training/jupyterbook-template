@@ -69,7 +69,7 @@ Please select a template that is appropriate to the project that you are working
 When selecting titles and filenames, consider the needs of a broad and diverse audience.  
 
 Training notebooks serve as entry points to the subject matter and should therefore be titled in a way that is clear, accurate, and accessible. Titles must be:  
-- **Concise** – brief and easy to read.  
+- **Concise** – easy to read  and limited to fewer than 80 characters.
 - **Accurate** – clearly reflect the notebook’s content and purpose.  
 - **Accessible** – avoid acronyms, abbreviations, or technical jargon that may not be widely understood.  
 
