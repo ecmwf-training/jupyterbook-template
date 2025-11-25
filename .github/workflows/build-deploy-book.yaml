@@ -4,10 +4,10 @@ name: build-deploy-book
 on:
   push:
     branches:
-    - 'develop'
+      - "develop"
   pull_request:
     branches:
-    - 'develop'
+      - "develop"
 
   # Allow workflow to be dispatched on demand
   workflow_dispatch:
@@ -18,43 +18,42 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
   # This job installs dependencies and builds the book
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: 'true'
+      - uses: actions/checkout@v4
+        with:
+          submodules: "true"
 
-    # Install dependencies
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      # Install dependencies
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    - name: Install dependencies
-      run: |
-        pip install -r ci/requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r ci/requirements.txt
 
-    # # Testing
-    # - name: Detect and configure production environment
-    #   if: github.repository == 'CLIMAAX/crabook'
-    #   run: |
-    #     echo "Repository: ${{github.repository}}"
-    #     echo "Substituting production ToC"
-    #     mv crabook/_toc_prod.yml crabook/_toc.yml
+      # # Testing
+      # - name: Detect and configure production environment
+      #   if: github.repository == 'CLIMAAX/crabook'
+      #   run: |
+      #     echo "Repository: ${{github.repository}}"
+      #     echo "Substituting production ToC"
+      #     mv crabook/_toc_prod.yml crabook/_toc.yml
 
-    # Build the book
-    - name: Build the book
-      run: |
-        jupyter-book build .
+      # Build the book
+      - name: Build the book
+        run: |
+          jupyter book
 
-    - name: Upload build
-      if: github.ref == 'refs/heads/develop'
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./_build/html
+      - name: Upload build
+        if: github.ref == 'refs/heads/develop'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_build/html
 
   # This job publishes the book to Github Pages
   deploy:
