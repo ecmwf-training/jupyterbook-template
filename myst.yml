@@ -1,0 +1,37 @@
+version: 1
+project:
+  title: Jupyterbook template
+  authors:
+    - name: The Copernicus Climate Change Service (C3S)
+    - name: entrusted to ECMWF (European Centre for Medium-Range Weather Forecasts)
+  license: Apache-2.0
+  open_access: true
+  exclude:
+    - developer/*
+  github: ecmwf-training/jupyter-template
+  thebe:
+    binder:
+      repo: ecmwf-training/jupyter-template
+      provider: github
+      url: https://mybinder.org
+      ref: develop
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro-jupyter-template.md
+    - file: jupyter-notebook-template-copernicus.ipynb
+site:
+  options:
+    folders: true
+    # C3S logos
+    logo: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_c3s.png
+    logo_dark: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_c3s_neg.png
+    logo_url: https://climate.copernicus.eu
+    # CAMS logos
+    # logo: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_cams.png
+    # logo_dark: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_cams_neg.png
+    # logo_url: https://atmosphere.copernicus.eu/
+
+  template: book-theme
