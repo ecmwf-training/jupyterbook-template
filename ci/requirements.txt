@@ -1,2 +1,2 @@
 jupyterlab-myst
-jupyter-book
+jupyter-book>=2.0.0
