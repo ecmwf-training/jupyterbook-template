@@ -14,14 +14,21 @@ The repository includes github-actions which will automatically build a develop 
 2. **Set the repo to *public*** to enable GitHub Pages and Action artifacts.
 
 
-### 1.2 Update `_config.yml`
+### 1.2 Update `myst.yml`
+ 
+Update the project metadata to reflect your project details. In particular, update the `github` and `thebe.binder.repo` fields with your repository name:
 
-Edit the line  
 ```yaml
-repository:
-  url: <your-repository-url>
+project:
+  title: <book title>  # replace <book title> with your project title
+  # ...
+  github: ecmwf-training/<your-repo-name>  # replace with your repository name
+  # ...
+  thebe:
+    binder:
+      repo: ecmwf-training/<your-repo-name>  # replace with your repository name (same as above)
 ```
-to point to the repository that you have just created. This is used as the link to the source in the rendered JupyterBook.
+
 
 ### 1.3 Enable GitHub pages
 
@@ -86,7 +93,7 @@ The dependancies for the notebooks in this repository should be listed in the `e
 
 ### 2.5 Table of contents
 
-Edit `_toc.yml` to reflect the notebook structure of your JupyterBook.
+Edit `myst.yml` to reflect the notebook structure of your JupyterBook. See [JupyterBook documentation](https://jupyterbook.org/stable/authoring/table-of-contents/) for details on how to structure the table of contents.
 
 ### 2.6 Best practices
 
@@ -138,22 +145,17 @@ It is recommended that you test the build locally prior to creating your pull re
 ```
 conda create -y -n JUPYTER-BUILD -c conda-forge python=3.12
 conda activate JUPYTER-BUILD
-pip install jupyter-book
+pip install "jupyter-book>=2,<3"
 ```
 
-With your JUPYTER-BUILD environment activated the following line will build the jupyterbook locally:
+With your JUPYTER-BUILD environment activated the following lines will build the jupyterbook locally:
 
 ```
-rm -rf _build
-jupyter-book build --all .
+jupyter book clean  # confirm with "Yes" if prompted
+jupyter book start
 ```
 
-This will create all the html files used to create the JupyterBook in the untracked `_build/` folder.
-You can open the homepage of this local build with:
-
-```
-open _build/html/index.html
-```
+Running the last command will start a server that renders your book as a locally-served website. Be default, this will be available at [http://localhost:3000/](http://localhost:3000/).
 
 ### 3.2 GitHub Actions
 
