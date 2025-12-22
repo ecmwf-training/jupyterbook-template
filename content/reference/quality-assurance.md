@@ -13,7 +13,7 @@ Ensure that the Python dependencies required to run the notebook(s) are included
 
 Ensure that all code in the notebook(s) adheres to the ECMWF coding standards for Python.
 
-To do so, activate your `jupyter-build` environment:
+To do so, activate your `jupyter-build` (see [here](../howto/review-book.md) for how to install it) environment:
 
 ```sh
 conda activate jupyter-build

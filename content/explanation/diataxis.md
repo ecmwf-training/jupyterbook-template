@@ -6,7 +6,7 @@ The [Diátaxis framework](https://diataxis.fr/) is a systematic approach to stru
 - [Tutorials](https://diataxis.fr/tutorials/) (learning-oriented): guided walkthroughs for newcomers.
 - [How-to guides](https://diataxis.fr/how-to-guides/) (task-oriented): practical steps for common tasks.
 - [Reference](https://diataxis.fr/reference/) (information-oriented): standards, conventions, and templates to copy.
-- [Explanation](https://diataxis.fr/explanations/) (understanding-oriented): context and rationale behind choices in this template.
+- [Explanation](https://diataxis.fr/explanation/) (understanding-oriented): context and rationale behind choices in this template.
 
 Our aim is to adopt the Diátaxis framework more widely across our training and documentation resources, to ensure that we meet the diverse needs of our users effectively. Therefore, we highly recommend that you also structure your Jupyter Book using the Diátaxis framework, to ensure that it meets future requirements. 
 
