@@ -12,5 +12,5 @@ Deployed URL: https://
 
 Before submitting, make sure:
 
-[ ] GitHub Pages [is turned on](https://github.com/ecmwf-training/jupyterbook-template?tab=readme-ov-file#13-enable-github-pages) in the repo settings.
-[ ] Deployed [JupyterBook URL](https://github.com/ecmwf-training/jupyterbook-template?tab=readme-ov-file#13-enable-github-pages) included above
+- [ ] GitHub Pages [is turned on](content/howto/review-book.md) in the repo settings.
+- [ ] Deployed Jupyter Book URL is included above

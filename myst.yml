@@ -1,9 +1,12 @@
 version: 1
+
+# Branding
+extends:
+  # choose between c3s.yml and cams.yml
+  - branding/c3s.yml
+
 project:
-  title: Jupyterbook template
-  authors:
-    - name: The Copernicus Climate Change Service (C3S)
-    - name: entrusted to ECMWF (European Centre for Medium-Range Weather Forecasts)
+  title: ECMWF Training Template
   license: Apache-2.0
   open_access: true
   exclude:
@@ -20,18 +23,32 @@ project:
       template: plain_latex_book
       output: exports/book.pdf
   toc:
-    - file: intro-jupyter-template.md
-    - file: jupyter-notebook-template-copernicus.ipynb
+    - file: content/index.md
+    - title: Tutorials
+      file: content/tutorials/index.md
+    - title: How-to guides
+      file: content/howto/index.md
+      children:
+        - file: content/howto/setup-book.md
+        - file: content/howto/review-book.md
+    - title: Reference
+      file: content/reference/index.md
+      children:
+        - title: Notebook Template
+          file: content/reference/template-notebook.ipynb
+        - title: Best Practices
+          file: content/reference/best-practices.md
+        - title: Quality Assurance
+          file: content/reference/quality-assurance.md
+        - title: Useful Links
+          file: content/reference/useful-links.md
+    - title: Explanation
+      file: content/explanation/index.md
+      children:
+        - file: content/explanation/diataxis.md
+        - file: content/explanation/branch-architecture.md
+
 site:
+  template: book-theme
   options:
     folders: true
-    # C3S logos
-    logo: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_c3s.png
-    logo_dark: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_c3s_neg.png
-    logo_url: https://climate.copernicus.eu
-    # CAMS logos
-    # logo: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_cams.png
-    # logo_dark: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_cams_neg.png
-    # logo_url: https://atmosphere.copernicus.eu/
-
-  template: book-theme

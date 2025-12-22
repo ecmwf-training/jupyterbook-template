@@ -1,0 +1,12 @@
+version: 1
+project:
+  authors:
+    - name: Copernicus Climate Change Service (C3S)
+      url: https://climate.copernicus.eu/
+
+site:
+  options:
+    folders: true
+    logo: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_c3s.png
+    logo_dark: https://climate.copernicus.eu/sites/default/files/2025-03/logoline_c3s_neg.png
+    logo_url: https://climate.copernicus.eu
