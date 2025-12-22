@@ -16,19 +16,19 @@ In short, the template saves time twice: first by accelerating the initial setup
 
 :::{card}
 :header: Get started
-:link: content/howto/setup-book.md
+:link: ./howto/setup-book/
 Follow step-by-step instructions to set up your Jupyter Book.
 :::
 
 :::{card}
 :header: Notebook template
-:link: content/reference/template-notebook.ipynb
+:link: ./reference/template-notebook/
 Start from a minimal notebook template that already follows best practices.
 :::
 
 :::{card}
 :header: Best practices
-:link: content/reference/best-practices.md
+:link: ./reference/best-practices/
 Learn how to develop clear and review-ready notebooks.
 :::
 
@@ -36,5 +36,5 @@ Learn how to develop clear and review-ready notebooks.
 
 
 :::{note} 
-This documentation is organised using the [Diátaxis framework](content/explanation/diataxis.md). We recommend using the same approach when structuring your own project’s Jupyter Book.
+This documentation is organised using the [Diátaxis framework](./explanation/diataxis.md). We recommend using the same approach when structuring your own project’s Jupyter Book.
 :::

@@ -10,7 +10,7 @@ All training material destined for CDS/ADS/CADS portals must satisfy the SWUMP c
 * **W**ell structured: Logical flow and aesthetically pleasing layout with a balanced mix of Markdown and code.
 * **U**sable: Notebook runs to completion **without errors** and uses only outputs/widgets compatible with JupyterBook.
 * **M**eaningful: Provides an authentic, value-adding use-case for CDS/ADS/CADS data.
-* **P**roficient: Passes the code-standards tests (see [Run code standards tests](../howto/run-code-standards-tests.md)).
+* **P**roficient: Passes the code-standards tests (see [quality assurance](quality-assurance.md)).
 
 
 ### Filenames
@@ -52,7 +52,7 @@ Keep the table of contents (TOC) clear and intuitive, that is, avoid long lists 
 
 ### Images
 - Store notebook-specific images in `./content/img/.`
-- For images reused across repositories (e.g. logos) link to an external URL such as https://climate.copernicus.eu/branding-guidelines#Logolines. Images not already online can be uploaded to a dedicated repository for training hosted at https://sites.ecmwf.int/training/ (please contact [chris.stewart@ecmwf.int](mailto:chris.stewart@ecmwf.int)).
+- For images reused across repositories (e.g. logos) link to an external URL such as https://climate.copernicus.eu/branding-guidelines#Logolines. Images not already online can be uploaded to a dedicated repository for training. In that case, please contact [chris.stewart@ecmwf.int](mailto:chris.stewart@ecmwf.int).
 - Refer to the [MyST documentation](https://mystmd.org/guide/figures) for how to include figures.
 
 ### Data files
