@@ -46,7 +46,7 @@ That is all that is required.
 
 
 ## Next steps
-- Remove the example content in start adding your own pages and notebooks, following the [best practices](../reference/best-practices.md).
-- Before sending your work for review, follow [Review content](./review-book.md).
+- Remove the example content and start adding your own pages and notebooks, following the [best practices](../reference/best-practices.md).
+- Before submitting your work for ECMWF review, review your Jupyter Book [yourself](./review-book.md) by following the [quality assurance guidelines](../reference/quality-assurance.md).
 
 That's it! You're now ready to start drafting your book.

@@ -1,4 +1,4 @@
-# Review your Jupyter Book
+# View your Jupyter Book
 
 Before you deliver your work for review by ECMWF staff, it's worth doing a quick self-check. You can either build the book locally on your computer, or use GitHub to build and host it for you.
 
@@ -7,7 +7,7 @@ Before you deliver your work for review by ECMWF staff, it's worth doing a quick
 - [Set up your Jupyter Book](./setup-book.md)
 
 
-## Option 1: Review locally
+## Option 1: View locally
 Create a conda/mamba environment for building Jupyter Books:
 
 ```
@@ -26,7 +26,7 @@ jupyter book start
 This will start a server that renders your book as a locally-served website. By default, it will be available at [http://localhost:3000/](http://localhost:3000/). Open this URL in your web browser to inspect the rendered book.
 
 
-## Option 2: Review via GitHub pages
+## Option 2: View via GitHub pages
 Go to the "Settings" tab, then navigate to "Pages" on the left-hand menu pane. In the "Build and deployment" section set the source to "GitHub Actions" from the dropdown menu.
 
 :::{important}
