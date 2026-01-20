@@ -1,0 +1,12 @@
+version: 1
+project:
+  authors:
+    - name: European Centre for Medium-Range Weather Forecasts (ECMWF)
+      url: https://ecmwf.int/
+
+site:
+  options:
+    folders: true
+    logo: https://climate.copernicus.eu/sites/default/files/custom-uploads/branding/ECMWF_Master_Logo_RGB_nostrap.png
+    logo_dark: https://climate.copernicus.eu/sites/default/files/custom-uploads/branding/ECMWF_Master_Logo_WHITE_nostrap.png
+    logo_url: https://ecmwf.int

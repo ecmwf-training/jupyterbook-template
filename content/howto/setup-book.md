@@ -32,15 +32,33 @@ project:
 
 ## Choose branding (optional)
 
-By default, the template uses Copernicus Climate Change Service (C3S) branding. If you want to use Copernicus Atmosphere Monitoring Service (CAMS) branding instead:
+By default, the template uses Copernicus Climate Change Service (C3S) branding. You can easily switch to ECMWF or Copernicus Atmosphere Monitoring Service (CAMS) branding instead:
 
 1. Open the `myst.yml` file in the root of your Jupyter Book repository.
 2. Change the `extends` line to select the desired branding configuration:
 
+::::{tab-set}
+:::{tab-item} ECMWF
+:sync: ecmwf
 ```yaml
 extends:
-  - branding/cams.yml  # use branding/c3s.yml for C3S
+  - branding/ecmwf.yml
 ```
+:::
+:::{tab-item} C3S
+:sync: c3s
+```yaml
+extends:
+  - branding/c3s.yml
+```
+:::
+:::{tab-item} CAMS
+:sync: cams
+```yaml
+extends:
+  - branding/cams.yml
+```
+::::
 
 That is all that is required.
 
