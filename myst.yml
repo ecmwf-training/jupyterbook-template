@@ -31,6 +31,11 @@ project:
       children:
         - file: content/howto/setup-book.md
         - file: content/howto/review-book.md
+    - title: Explanation
+      file: content/explanation/index.md
+      children:
+        - file: content/explanation/diataxis.md
+        - file: content/explanation/branch-architecture.md
     - title: Reference
       file: content/reference/index.md
       children:
@@ -42,11 +47,6 @@ project:
           file: content/reference/quality-assurance.md
         - title: Useful Links
           file: content/reference/useful-links.md
-    - title: Explanation
-      file: content/explanation/index.md
-      children:
-        - file: content/explanation/diataxis.md
-        - file: content/explanation/branch-architecture.md
 
 site:
   template: book-theme
