@@ -1,4 +1,4 @@
-# How-to guides
+# How-to
 
 This section contains practical guides to help you get started with creating and managing your Jupyter Book using this template. Specifically, you can find guides on how to:
 
