@@ -22,7 +22,7 @@ Follow step-by-step instructions to set up your Jupyter Book.
 
 :::{card}
 :header: Notebook template
-:link: ./reference/template-notebook/
+:link: ./reference/template-notebook
 Start from a minimal notebook template that already follows best practices.
 :::
 
