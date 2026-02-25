@@ -16,7 +16,7 @@ In short, the template saves time twice: first by accelerating the initial setup
 
 :::{card}
 :header: Get started
-:link: ./howto/setup-book/
+:link: ./howto/setup-book
 Follow step-by-step instructions to set up your Jupyter Book.
 :::
 
