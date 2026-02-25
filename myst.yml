@@ -2,7 +2,7 @@ version: 1
 
 # Branding
 extends:
-  # choose between c3s.yml and cams.yml
+  # choose between c3s.yml, cams.yml, and ecmwf.yml
   - branding/c3s.yml
 
 project:
