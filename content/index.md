@@ -28,7 +28,7 @@ Start from a minimal notebook template that already follows best practices.
 
 :::{card}
 :header: Best practices
-:link: ./reference/best-practices/
+:link: ./reference/best-practices
 Learn how to develop clear and review-ready notebooks.
 :::
 
