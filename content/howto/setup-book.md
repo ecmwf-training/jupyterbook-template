@@ -58,6 +58,7 @@ extends:
 extends:
   - branding/cams.yml
 ```
+:::
 ::::
 
 That is all that is required.
