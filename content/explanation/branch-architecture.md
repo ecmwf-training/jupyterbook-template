@@ -14,7 +14,7 @@ There are two github actions in place for this repository:
 
 ### Build
 
-The **`Build`** action builds the JupyterBook using the same proceedure as local build described below. It is activated when a pull request to the `develop` branch is opened, or when any change is made to the develop branch (e.g. after merging a pull request). A pull request can only be merged into the develop branch if the `Build` action is successful.
+The **`Build`** action builds the JupyterBook using the same procedure as local build described below. It is activated when a pull request to the `develop` branch is opened, or when any change is made to the develop branch (e.g. after merging a pull request). A pull request can only be merged into the develop branch if the `Build` action is successful.
 
 ### Deploy
 
