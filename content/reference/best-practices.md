@@ -27,7 +27,7 @@ Filenames should use human-readable *slugs* that capture the notebook’s key th
 Focus on one topic / visualisation / processing routine. Consider separate notebooks if multiple parts or topics are included.
 
 :::{note} User-centric approach
-The [Diátaxis documentation framework ](../explanation/diataxis.md)is there to help you structure your content in a user-centric way.
+The [Diátaxis documentation framework](../explanation/diataxis.md) is there to help you structure your content in a user-centric way.
 :::
 
 
