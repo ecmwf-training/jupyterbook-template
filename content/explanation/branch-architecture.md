@@ -7,7 +7,7 @@ The repository includes github-actions which will automatically build a develop 
 ## GitHub Actions
 
 :::{note}
-This template is designed to be used as a sub-module for a parent repository. The JupyterBook build here is intended for review and testing purposes, and hence the actions are associated to the develop branch. If you are using this repostory as a stand-alone JupyterBook you may want to update the default branch and github workflow to use the main branch.
+This template is designed to be used as a sub-module for a parent repository. The JupyterBook build here is intended for review and testing purposes, and hence the actions are associated to the develop branch. If you are using this repository as a stand-alone JupyterBook you may want to update the default branch and github workflow to use the main branch.
 :::
 
 There are two github actions in place for this repository:
