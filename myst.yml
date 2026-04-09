@@ -31,11 +31,12 @@ project:
       children:
         - file: content/howto/setup-book.md
         - file: content/howto/review-book.md
+        - file: content/howto/submodules.md
     - title: Explanation
       file: content/explanation/index.md
       children:
         - file: content/explanation/diataxis.md
-        - file: content/explanation/branch-architecture.md
+        - file: content/explanation/submodules.md
     - title: Reference
       file: content/reference/index.md
       children:
