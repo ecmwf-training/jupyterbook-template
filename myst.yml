@@ -17,7 +17,7 @@ project:
       repo: ecmwf-training/jupyter-template
       provider: github
       url: https://mybinder.org
-      ref: develop
+      ref: main
   exports:
     - format: pdf
       template: plain_latex_book

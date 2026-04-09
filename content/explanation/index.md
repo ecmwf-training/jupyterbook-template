@@ -3,8 +3,7 @@
 Here, you find some background information about this Jupyter Book template, including:
 
 * [Why using the Diátaxis framework](diataxis.md)
-* [Why using the `develop` branch](branch-architecture.md)
-
+* [When and why should I use submodules?](submodule.md)
 
 
 :::{note} About explanations
