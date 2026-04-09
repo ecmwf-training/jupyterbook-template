@@ -1,9 +1,11 @@
 # ECMWF Jupyter Book template
 
-This repository is a GitHub **template** for creating and maintaining ECMWF Jupyter Books for learning and documentation resources.
+This repository is a GitHub **template** for creating and maintaining ECMWF Jupyter Books for learning
+and documentation resources.
 
 ## For authors
-Please refer to the [rendered Jupyter Book](https://ecmwf-training.github.io/jupyterbook-template/) for detailed instructions on how to set up and develop your Jupyter Book using this template.
+Please refer to the [rendered Jupyter Book](https://ecmwf-training.github.io/jupyterbook-template/)
+for detailed instructions on how to set up and develop your Jupyter Book using this template.
 
 ## For developers
 

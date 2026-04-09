@@ -1,6 +1,7 @@
 # ECMWF Jupyter Book template
 
-This repository provides a **ready-to-use template** for creating and maintaining **Jupyter Books** for learning, training, and technical documentation in C3S/CAMS projects implemented by ECMWF.
+This repository provides a **ready-to-use template** for creating and maintaining **Jupyter Books**
+for learning, training, and technical documentation in C3S/CAMS projects implemented by ECMWF.
 
 It serves two purposes:
 
@@ -36,5 +37,6 @@ Learn how to develop clear and review-ready notebooks.
 
 
 :::{note} 
-This documentation is organised using the [Diátaxis framework](./explanation/diataxis.md). We recommend using the same approach when structuring your own project’s Jupyter Book.
+This documentation is organised using the [Diátaxis framework](./explanation/diataxis.md).
+We recommend using the same approach when structuring your own project’s Jupyter Book.
 :::
