@@ -38,6 +38,7 @@ For our above example, this would be:
 
 ```bash
 cd submodules/jupyterbook-submodule-template
+git switch main
 git pull
 
 # Check that everything is as intended
