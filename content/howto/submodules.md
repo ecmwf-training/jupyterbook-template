@@ -29,9 +29,9 @@ git submodule update --init --recursive
 
 ## Updating submodules
 
-The parent repository tracks the the **commit** of the submodule,
+The parent repository tracks the **commit** of the submodule,
 therefore the parent is not dynamically updated when changes to the submodule are made.
-The parent repository must update it's submodule to see the changes,
+The parent repository must update its submodule to see the changes,
 often this is just a case of pulling the latest changes to the submodule and then
 committing the changes.
 For our above example, this would be:
