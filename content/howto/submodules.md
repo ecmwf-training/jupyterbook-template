@@ -47,4 +47,3 @@ git add submodules/jupyterbook-submodule-template
 git commit -m"updated submodules/jupyterbook-submodule-template"
 git push
 ```
-
