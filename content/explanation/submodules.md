@@ -33,9 +33,9 @@ When you add a submodule, Git records:
 - the checked-out submodule **commit** in the parent repository index
 
 :::{note} Updating submodules
-As the parent repository tracks the the **commit** of the submodule, the parent is not 
+As the parent repository tracks the **commit** of the submodule, the parent is not 
 dynamically updated when changes to the submodule are made.
-The parent repository must update it's submodule to see the changes.
+The parent repository must update its submodule to see the changes.
 :::
 
 
