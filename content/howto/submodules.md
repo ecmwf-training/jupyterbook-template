@@ -1,9 +1,12 @@
 # Working with submodules
 
+For a thorough demonstration of working with submodules, please refer to the
+[git documentation pages](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
 ## Add a submodule to your repository
 
-To add the ECMWF Jupyter Book submodule template under `submodules/` and set it to track
-the `main` branch:
+The following code snippet will add the ECMWF Jupyter Book submodule template in the
+`submodules/` directory and set it to track the `main` branch:
 
 ```bash
 mkdir -p submodules
@@ -15,13 +18,16 @@ git add .gitmodules submodules/jupyterbook-submodule-template
 git commit -m "Add jupyterbook-submodule-template as a submodule"
 ```
 
-If someone else clones your repository, they should initialise submodules with:
+## Initialising submodules in a cloned repository
+
+When working with a repository with submodules, the submodules need to be initialised.
+To clone and initialise the submodules in a single command, use:
 
 ```bash
 git clone --recurse-submodules <your-repo-url>
 ```
 
-or, if already cloned:
+or, if the repository has already been cloned, use:
 
 ```bash
 git submodule update --init --recursive
