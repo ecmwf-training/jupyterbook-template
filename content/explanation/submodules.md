@@ -7,7 +7,7 @@ Jupyter Book which is a collection of notebooks covering many of the C3S data pr
 Many of these notebooks were produced by the data providers, and underwent a review process
 prior to publication in the main C3S training Jupyter Book.
 The submodule setup provided a staging Jupyter Book where notebooks could be published
-in more realistic environment for the reviewers.
+in a more realistic environment for the reviewers.
 
 :::{note}
 It would also be possible to set up a review version of the JupyterBook on a forked repository.
