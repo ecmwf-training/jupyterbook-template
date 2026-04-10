@@ -1,7 +1,13 @@
-# Work with submodules
+# Working with submodules
 
+This tutorial guides users through the process of adapting this template to make use
+of submodules for a more granular organisation of the Jupyter Book content.
 For a more detailed description of working with submodules, please refer to the
 {doc}`../explanation/submodules` explanation.
+
+In the tutorial we refer to the
+[Jupyter Book submodule template](https://github.com/ecmwf-training/jupyterbook-submodule-template)
+which includes instructions and guidelines for managing the submodule repository.
 
 ## Add a submodule to your repository
 
@@ -10,7 +16,7 @@ The following code snippet will add the ECMWF Jupyter Book submodule template in
 
 ```bash
 mkdir -p submodules
-git submodule add -b main https://github.com/ecmwf-training/jupyterbook-submodule-template submodules/jupyterbook-submodule-template
+git submodule add -b main https://github.com/ecmwf-training/jupyterbook-submodule-template.git submodules/jupyterbook-submodule-template
 git submodule update --init --recursive
 
 # commit the new submodule configuration in the parent repository
