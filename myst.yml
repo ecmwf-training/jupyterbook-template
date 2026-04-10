@@ -26,12 +26,13 @@ project:
     - file: content/index.md
     - title: Tutorials
       file: content/tutorials/index.md
+      children:
+        - file: content/tutorials/submodules.md
     - title: How-to
       file: content/howto/index.md
       children:
         - file: content/howto/setup-book.md
         - file: content/howto/review-book.md
-        - file: content/howto/submodules.md
     - title: Explanation
       file: content/explanation/index.md
       children:

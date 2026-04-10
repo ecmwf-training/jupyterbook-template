@@ -43,6 +43,6 @@ Jupyter Book please see the
 
 :::{card}
 :header: Working with submodules
-:link: ../howto/submodules
-See the "Working with submodules" how-to guide for some practical examples.
+:link: ../tutorials/submodules
+See the "Working with submodules" tutorial for a guide on how to adapt the template to use submodules.
 :::
