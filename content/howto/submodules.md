@@ -1,7 +1,7 @@
-# Working with submodules
+# Work with submodules
 
-For a thorough demonstration of working with submodules, please refer to the
-[git documentation pages](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+For a more detailed description of working with submodules, please refer to the
+{doc}`../explanation/submodules` explanation.
 
 ## Add a submodule to your repository
 

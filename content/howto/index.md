@@ -4,6 +4,7 @@ This section contains practical guides to help you get started with creating and
 
 - [Set up your Jupyter Book](setup-book.md)
 - [Review your Jupyter Book](review-book.md)
+- {doc}./submodules
 
 :::{note} About how-to guides
 How-to guides are task-oriented instructions you can follow when you already know what you want to do. [Learn more...](../explanation/diataxis.md)

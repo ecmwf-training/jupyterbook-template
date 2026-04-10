@@ -1,4 +1,4 @@
-# Submodules: when to use them?"
+# Submodules: when to use them?
 
 A [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 is a standard git tool that lets one Git repository include another repository at a fixed commit.
