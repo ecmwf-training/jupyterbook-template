@@ -1,11 +1,14 @@
 # This file was created automatically with `jupyter-book init --gh-pages` 🪄 💚
 # Ensure your GitHub Pages settings for this repository are set to deploy with **GitHub Actions**.
 
-name: Jupyter Book (via myst) GitHub Pages Deploy
+name: Jupyter Book Deploy
 on:
   push:
     # Runs on pushes targeting the default branch
-    branches: [develop]
+    branches: [main]
+  pull_request:
+    # Runs on pull requests targeting the default branch
+    branches: [main]
   workflow_dispatch:
 env:
   # `BASE_URL` determines, relative to the root of the domain, the URL that your site is served from.
@@ -31,7 +34,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: 'true'
       - name: Setup Pages
+        if: github.ref == 'refs/heads/main' # Only deploy for the main branch
         uses: actions/configure-pages@v3
       - uses: actions/setup-node@v4
         with:
@@ -41,9 +47,11 @@ jobs:
       - name: Build HTML Assets
         run: jupyter-book build --html
       - name: Upload artifact
+        if: github.ref == 'refs/heads/main' # Only upload artifact for the main branch
         uses: actions/upload-pages-artifact@v3
         with:
           path: "./_build/html"
       - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' # Only deploy for the main branch
         id: deployment
         uses: actions/deploy-pages@v4

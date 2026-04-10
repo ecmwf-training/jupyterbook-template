@@ -17,7 +17,7 @@ project:
       repo: ecmwf-training/jupyter-template
       provider: github
       url: https://mybinder.org
-      ref: develop
+      ref: main
   exports:
     - format: pdf
       template: plain_latex_book
@@ -26,6 +26,8 @@ project:
     - file: content/index.md
     - title: Tutorials
       file: content/tutorials/index.md
+      children:
+        - file: content/tutorials/submodules.md
     - title: How-to
       file: content/howto/index.md
       children:
@@ -35,7 +37,7 @@ project:
       file: content/explanation/index.md
       children:
         - file: content/explanation/diataxis.md
-        - file: content/explanation/branch-architecture.md
+        - file: content/explanation/submodules.md
     - title: Reference
       file: content/reference/index.md
       children:
