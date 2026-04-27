@@ -39,3 +39,21 @@ To get the link to the rendered Jupyter Book (GitHub pages), go to the "Actions"
 **Optional** You can make this link easier to locate in the future by adding it to the "About" section in the right hand panel of the "Code" tab. Click on the settings cog next to about and check the "Use your GitHub Pages website" checkbox.
 :::
 
+
+## Self-review checklist
+
+Before opening a pull request for review, verify that your notebook has filled in (or, where applicable, removed) each of the sections introduced by the template. The checklist below mirrors the manual-review criteria; the [pull request template](../../.github/pull_request_template.md) asks you to link to the section in your deployed book that satisfies each one.
+
+- **Prerequisites** — prior knowledge, related notebooks, required tools/accounts.
+- **Target audience** — skill level, role, domain background assumed.
+- **Introduction & workflow overview** — context plus an ordered outline of the steps.
+- **Learning objectives** — what the reader will be able to do after the notebook.
+- **Method and data justification** — why this method, why this dataset, assumptions and limits.
+- **Transferability** — what the learner can adapt (region, resolution, variables) and what is fixed.
+- **Validation** *(optional)* — sanity checks performed and known limitations.
+- **References** — datasets (DOI / persistent ID / stable URL), publications, reused figures.
+- **Definitions** *(optional)* — used only when several novel terms are introduced; otherwise define on first use.
+- **Figures** — title, axis labels with units, legend, caption with source/attribution; honest scaling; sufficient image quality.
+- **Code** — inline comments on non-trivial blocks; docstrings on custom functions; a markdown cell precedes each logical code block.
+
+If a section does not apply to your notebook, remove it (or mark it *not applicable*) rather than leaving the placeholder text in place.
